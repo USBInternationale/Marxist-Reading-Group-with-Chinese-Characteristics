@@ -8,23 +8,24 @@ body {
     justify-content:center;*/
     width: 60%; /* Set a fixed width for the body element */ 
     background-image: url(Marx.png);
-    background-size: cover;
+    background-size: 60%;
+    background-position: 60%;
     background-repeat: no-repeat;
 }
 
 h1{
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 h2{
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 p{
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .content {
@@ -43,7 +44,10 @@ p{
     body {
         width: 100%;
         box-shadow: none; /* Optional: remove shadow on smaller devices */
+        background-size: cover;
+        background-position: 10%;
     }
+
     h1{
         color: darkred;
         font-size: 10vw;
