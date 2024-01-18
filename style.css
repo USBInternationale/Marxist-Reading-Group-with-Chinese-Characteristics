@@ -1,0 +1,60 @@
+body {
+    font-family: "source-han-serif-sc", serif;
+    color:aliceblue;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+    /* display:flex;
+    justify-content:center;*/
+    width: 60%; /* Set a fixed width for the body element */ 
+    background-image: url(Marx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+p{
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.QR{
+    width: 100%;
+    height: auto; /* maintain the aspect ratio */
+    display: block;
+    padding-top: 10%;
+}
+
+@media (max-width: 1000px) {
+    body {
+        width: 100%;
+        box-shadow: none; /* Optional: remove shadow on smaller devices */
+    }
+    h1{
+        color: darkred;
+        font-size: 10vw;
+    }
+
+    h2{
+        font-size: 4vw;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 3vw;
+    }
+}
