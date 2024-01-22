@@ -8,7 +8,7 @@ body {
     justify-content:center;*/
     width: 60%; /* Set a fixed width for the body element */ 
     background-image: url(Marx.png);
-    background-size: 60%;
+    background-size: 65%;
     background-position: 60%;
     background-repeat: no-repeat;
 }
@@ -33,7 +33,7 @@ p{
     margin: 20px auto;
 }
 
-.QR{
+.QR{  
     width: 100%;
     height: auto; /* maintain the aspect ratio */
     display: block;
