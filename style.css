@@ -8,19 +8,28 @@ body {
     justify-content:center;*/
     width: 60%; /* Set a fixed width for the body element */ 
     background-image: url(Marx.png);
-    background-size: 65%;
-    background-position: 60%;
+    background-size: 100%;
+    background-position-x: 250px;
+    background-position-y: 0;
     background-repeat: no-repeat;
 }
 
 h1{
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 3.5vw;
+    color: red;
+
 }
 
 h2{
     font-weight: 500;
     font-size: 1.5vw;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: rgb(255, 89, 0);
 }
 
 p{
@@ -49,8 +58,7 @@ p{
     }
 
     h1{
-        color: darkred;
-        font-size: 10vw;
+        font-size: 7vw;
     }
 
     h2{
@@ -59,6 +67,10 @@ p{
 
     p{
         font-weight: 400;
+        font-size: 3vw;
+    }
+    h3{
+        font-weight: 700;
         font-size: 3vw;
     }
 }
