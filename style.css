@@ -8,7 +8,7 @@ body {
     justify-content:center;*/
     width: 50%; /* Set a fixed width for the body element */ 
     background-image: url(Marx.png);
-    background-size: 100%;
+    background-size: 110%;
     background-position-x: 200px;
     background-position-y: 0;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ a:link {
     width: 100%;
     height: auto; /* maintain the aspect ratio */
     display: block;
-    padding-top: 10%;
+    padding-top: 0;
 }
 
 @media (max-width: 720px) {
