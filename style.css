@@ -7,7 +7,7 @@ body {
     /* display:flex;
     justify-content:center;*/
     width: 50%; /* Set a fixed width for the body element */ 
-    /* background-image: url(https://res.cloudinary.com/dcix4vvth/image/upload/f_auto,q_auto/Marx); */
+    background-image: url(https://res.cloudinary.com/dcix4vvth/image/upload/f_auto,q_auto/Marx);
     background-size: 120%;
     background-position-x: 200px;
     background-position-y: 0;
